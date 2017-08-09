@@ -1,0 +1,124 @@
+/*
+Colores & tipografía: 
+Verde - #ABE188;
+Rosa - #F78E69;
+font-family: 'Raleway', sans-serif;
+*/
+
+/* Escribe tu código acá debajo */
+
+*{
+	background: #ABE188;
+	font-family: 'Raleway', sans-serif;
+}
+
+header{
+	background: #F78E69;
+	color: white;
+	padding: 20px;
+	border: 10px;
+	width: 100%;
+}
+	header h4, header p{
+		background: inherit;
+		text-align: right;
+	}
+
+
+.first{
+	height: 620px;
+	border-bottom: 20px solid #F78E69;
+}
+	#firstPic{
+		background-image: url(../img/uno.jpg);
+		filter: grayscale(100%);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		box-sizing: border-box;
+		height: 600px;
+	}
+
+.about{
+	padding: 50px 470px;	
+}
+	#info{
+		background-color: #F78E69;
+		color: white;
+		padding: 15px;
+		border: 30px 80px;
+		width: 490px;
+	}
+	div p{
+		background-color: inherit;
+		color: inherit;
+		text-align: justify;
+	}
+	h5{
+		background-color: inherit;
+		color: inherit;
+		text-align: center;
+		padding-top: 25px;
+		font-weight: bold;
+	}
+
+.second{
+	height: 700px;
+	border-bottom: 20px solid #F78E69;
+}
+	#secondPic{
+		background-image: url(../img/dos.jpg);
+		filter: grayscale(100%);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		box-sizing: border-box;
+		height: 680px;
+	}
+
+#carouselDiv{
+	padding: 20px 370px;
+	align-items: center;
+	border-bottom: 20px solid #F78E69;
+	height: 440px;
+}
+	#title{
+		color: white;
+		font-weight: bold;
+		font-size: 35px;
+		text-align: center;
+		padding: 15px;
+	}
+	#pics{
+		height: 320px;
+		padding: 0;
+	}
+
+.last{
+	height: 700px;
+	border-bottom: 20px solid #F78E69;
+}
+	#lastPic{
+		background-image: url(../img/tres.jpg);
+		filter: grayscale(100%);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		box-sizing: border-box;
+		height: 680px;
+	}
+
+footer{
+	background: #F78E69;
+	color: white;
+	padding: 10px;
+	width: 100%;
+	height: 70px;
+}
+	footer p{
+		background: #F78E69;
+		text-align: right;
+		font-size: 20px;
+		font-weight: bold;
+		margin: 0;
+	}
